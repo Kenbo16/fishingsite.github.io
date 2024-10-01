@@ -1,0 +1,31 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    color: aliceblue;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#underline {
+    text-decoration: none;
+    color: blue;
+}
+
+#underline p:hover {
+    background-color: rgba(92, 87, 87, 0.328);
+}
+
+@media (max-width: 989px) {
+    .high {
+        margin-top: 1rem;
+    }
+}

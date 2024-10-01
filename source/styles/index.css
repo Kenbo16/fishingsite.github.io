@@ -1,0 +1,64 @@
+.head-index {
+    font-family: 'Headland One', serif;
+    font-style: italic;
+    font-size: 3rem;
+    color: rgb(236, 225, 226);
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.carousel-indicators li {
+    background-color: #333;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    position: relative; /* Щоб мати можливість позиціонувати елементи всередині картки */
+    height: 100%; /* Зробіть картку на всю висоту контейнера */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    max-height: 300px;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-img {
+    opacity: 0.85;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 0;
+    position: absolute; /* Абсолютне позиціонування */
+    bottom: 0; /* Переміщує текст донизу картки */
+    width: 100%; /* Робить ширину заголовка рівною ширині картки */
+    text-align: center; /*Вирівнює текст по центру*/
+    background-color: rgba(0, 0, 0, 0.6); /* Додає напівпрозорий фон для виділення тексту */
+    color: white; /* Змінює колір тексту на білий для кращої видимості */
+    padding: 10px 0; /* Додає відступи зверху та знизу тексту */
+    font-size: 1.25rem; /* Змінює розмір шрифту */
+}
+
+.card-title:hover {
+    color: #007bff;
+}
+

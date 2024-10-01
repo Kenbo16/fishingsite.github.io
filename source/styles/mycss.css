@@ -1,0 +1,64 @@
+body {
+    background-image: url(../files/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+
+.logo-name>p {
+    font-family: 'Playwrite Cuba', serif;
+    font-style: italic;
+    }
+
+/* body {
+    background: linear-gradient(90deg, #088c11 15%, #141ab8 100%);
+} */
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-brand img:hover {
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+}
+
+.logo-name {
+    display: flex;  
+    align-items: center; 
+    color: #088c11;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: rgb(229, 239, 239);
+}
+
+.nav-link:hover {
+    color: rgb(55, 145, 145);
+}
+.nav-link:hover {
+    background-color: rgb(58, 61, 61);
+}
+
+.nav-position {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card {
+    background-color: antiquewhite;
+}
+
+
+/* Catalog */
+.drop-catalog a:hover {
+    background-color: rgb(58, 61, 61);
+}
+
+.catalog-h {
+    height: 1rem;
+}
